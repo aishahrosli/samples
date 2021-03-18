@@ -1,4 +1,4 @@
-	package samples.demo;
+package samples.demo;
 
 public class GitTest {
 
