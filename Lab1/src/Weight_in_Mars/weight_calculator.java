@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class weight_calculator {
 	
-	  
-
     public static void main(String[] args) throws Exception {
         calculateWeight();
     }
@@ -14,14 +12,12 @@ public class weight_calculator {
         System.out.print("Please enter your weight in kg: ");
         Scanner s = new Scanner(System.in);
         double weight = s.nextFloat();
-        
-         
-        // multiplication by 100*100 for cm to m conversion
+      
+        //Weight on Mars= (Weight on Earth/9.81m/s2) * 3.711m/s2.
         double a = (weight/9.81)*3.711;
          
-        System.out.println("Your weight in mars is: "+a);
+        System.out.println("Your weight in mars is: " +a +" kg" );
       
-         
     }
 }
  
