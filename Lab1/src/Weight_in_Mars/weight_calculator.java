@@ -17,9 +17,9 @@ public class weight_calculator {
         
          
         // multiplication by 100*100 for cm to m conversion
-        double bmi = (weight/9.81)*3.711;
+        double a = (weight/9.81)*3.711;
          
-        System.out.println("Your weight in mars is: "+bmi);
+        System.out.println("Your weight in mars is: "+a);
       
          
     }
